@@ -1,0 +1,363 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+#partie_centrale{
+    display: flex;
+    width: 680px;;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(244, 245, 245);
+}
+#d1 img{
+    width: 45px;
+    height: 45px;
+}
+#d1{
+    display: flex;
+    align-items: center;
+}
+#bar_re img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -10px;
+    opacity: 30%;
+}
+
+#d1 input[type="search"]{
+    margin-left: 10px;
+    border: 2px solid rgb(241, 241, 241);
+     background-color: rgb(241, 241, 241);
+     border-radius: 30px;
+     height: 40px;
+     width: 200px;
+     padding-left: 25px;
+     outline: none;
+}
+#d2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+}
+#d2 img{
+    height: 35px;
+     width: 35px;
+}
+#d2 p{
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(241, 241, 241); ;
+}
+#d3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+#d3 img{
+    height: 22px;
+     width: 22px;
+}
+#d3 img[name="profil"]{
+    width: 40px;
+    height: 40px;
+}
+
+#d3 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    background-color:rgb(241, 241, 241);
+}
+#message{
+     position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(245, 7, 7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+    margin-left: 30px;
+    padding-top: 1px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#notification{
+     position: absolute;
+    width: 35px;
+    height: 18px;
+    border-radius: 30px;
+    background-color: rgb(245, 7, 7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -26px;
+    margin-left: 40px;
+    padding-top: 2px;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.in{
+    border-radius: 50%;
+}
+.d4{
+    width: 40vh;
+}
+.d4 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+}
+.d4 p{
+    display: flex;
+    align-items: center;
+}
+.d4 p label{
+    margin-left: 10px;
+}
+#grstory{
+    display: flex;
+    justify-content: space-between;
+    width:628px ;
+    height: 265px;
+}
+#story1{
+    background-image: url(in/pro.jpg);
+    background-repeat: no-repeat;
+ background-size: 100% 100%;
+    border-radius: 10px;
+    width: 150px;
+    height: 260px;
+    display: flex;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+}
+#story1 div{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 8px;
+   
+}
+#story1 div P{
+    margin-top: 0;
+}
+#story1 img{
+    height: 35px;
+    width: 35px;
+    border-radius: 70%;
+    margin-top: -40px;
+}
+#story2{
+    background-image: url(in/pro1.jpg);
+    background-repeat: no-repeat;
+ background-size: 100% 100%;
+    border-radius: 10px;
+    width: 150px;
+    height: 260px;
+}
+.p1{
+    height: 45px;
+    width: 45px;
+    border-radius: 70%;
+    background-color: rgb(74, 104, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pro_img{
+    height: 35px;
+    width: 35px;
+    border-radius: 70%;
+}
+.pro_nom{
+    display: flex;
+    align-items: end;
+    height:180px ;
+    color: white;
+    justify-content: center;
+}
+#story3{
+    background-image: url(in/pro2.jpg);
+    background-repeat: no-repeat;
+ background-size: 100% 100%;
+    border-radius: 10px;
+    width: 150px;
+    height: 260px;
+}
+#story4{
+    background-image: url(in/pro3.jpg);
+    background-repeat: no-repeat;
+ background-size: 100% 100%;
+    border-radius: 10px;
+    width: 150px;
+    height: 260px;
+}
+#im_n{
+    height: 40px;
+    width: 40px;
+    border-radius: 70%;
+}
+.news1{
+    width: 545px;
+}
+.news{
+    background-color: white;
+    width: 580px;
+    height: 20%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding-top: 3px;
+}
+.news input[name="Quoi de neuf"]{
+    width: 480px;
+    height: 30px;
+    border: 2px solid transparent;
+    background-color:rgb(241, 241, 241);
+    border-radius: 30px;
+    margin-left: 10px;
+    outline: none;
+}
+#news_e{
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+.news_au{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+.news_aup{
+    display: flex;
+    align-items: center;
+}
+.news_aup p{
+      margin-left: 1px;
+}
+.news_aup[name="info"] p{
+      margin-left: 10px;
+}
+.news_aup img{
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+}
+#inv_au{
+    width: 250px;
+}
+.inv{
+    display: flex;
+    justify-content: space-between;
+}
+#part_3{
+    width: 270px;
+}
+#p_inv{
+    display: flex;
+}
+#p_inv img{
+    width: 47px;
+    height: 47px;
+    border-radius: 70%;
+}
+#p_inv img[src="in/18.png"]{
+    width: 20px;
+    height: 20px;
+    border-radius: 70%;
+    margin-right: 5px;
+}
+#p_inv div{
+    margin-left: 10px;
+}
+#nr{
+    display: flex;
+    justify-content: space-between;
+}
+#nr div{
+    display: flex;
+    align-items: center;
+}
+#nr div div{
+    background-color: rgb(63, 166, 250);
+    border-radius: 70%;
+    width: 10px;
+    height: 10px;
+}
+#p_inv div p{
+    display: flex;
+    align-items: center;
+}
+#p_inv div p button[name="confirme"]{
+    width: 180px;
+    height: 35px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid transparent;
+    background-color: rgb(51, 132, 253);
+    color: white;
+}
+#p_inv div p button[name="supprimer"]{
+    width: 180px;
+    height: 35px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid transparent;
+    background-color:white;
+}
+#d_1 div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+}
+#d_1 div{
+    display: flex;
+}
+#d_1 div label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#con{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -7px;
+}
+#con p img{
+    width: 20px;
+    height: 20px;
+    border-radius: 70%;
+}
+#con p img[ name="a1"]{
+    margin-left: 7px;
+}
+#statut{
+    margin-top: -21px;
+}
